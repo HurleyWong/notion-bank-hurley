@@ -1,45 +1,8 @@
 # notion-bank-hurley
 
-A static blog build on top of Notion and Nextjs, deployed on [Vercel](https://vercel.com/hurleyjames/bank).
+使用 [nobelium](https://github.com/craigary/nobelium) 模版，搭配 Notion 创建的[银行小课堂](https://bank.hurleywong.com/)
 
-<p>
-  <a aria-label="GitHub commit activity" href="https://github.com/HurleyWong/notion-bank-hurley/commits/main" title="GitHub commit activity">
-    <img src="https://img.shields.io/github/commit-activity/m/HurleyWong/notion-bank-hurley?style=for-the-badge">
-  </a>
-  <a aria-label="Build status" href="#" title="Build status">
-    <img src="https://img.shields.io/github/deployments/HurleyWong/notion-bank-hurley/Preview?logo=Vercel&style=for-the-badge">
-  </a>
-</p>
-
-Demo: [https://bank.hurleywong.com/](https://bank.hurleywong.com/)
-
-<details><summary>Screenshot</summary>
-<img src="https://github.com/craigary/nobelium/blob/main/desktop.png?raw=true">
-</details>
-
-## Highlights ✨
-
-**🚀 &nbsp;Fast and responsive**
-
-- Fast page render and responsive design
-- Fast static generation with efficient compiler
-
-**🤖 &nbsp;Deploy instantly**
-
-- Deploy on Vercel in minutes
-- Incremental regeneration and no need to redeploy after update the content in notion
-
-**🚙 &nbsp;Fully functional**
-
-- Comments, full width page, quick search and tag filter
-- RSS, analytics, web vital... and much more
-
-**🎨 &nbsp;Easy for customization**
-
-- Rich config options, support English & Chinese interface
-- Built with Tailwind CSS, easy for customization
-
-**🕸 &nbsp;Pretty URLs and SEO friendly**
+<img src="./desktop.png">
 
 ## Quick Start
 
@@ -83,17 +46,6 @@ docker pull ghcr.io/craigary/nobelium:main
 # run with docker
 docker run -d --name nobelium -p 3000:3000 -e NOTION_PAGE_ID=${NOTION_PAGE_ID} ghcr.io/craigary/nobelium:main
 ```
-
-## Roadmap
-
-Check out our roadmap [here](https://www.notion.so/craigary/Public-Roadmap-3cfc4d0f0ca642ef8f652673c37add22)
-
-- [x] Better SEO
-- [x] Dark mode
-- [x] Open Graph support
-- [x] Switch to react-notion-x
-- [x] Sitemap
-- [ ] ...
 
 ## Technical details
 

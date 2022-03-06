@@ -12,8 +12,8 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2022, // If leave this empty, current year will be used.
   postsPerPage: 7,
-  sortByDate: false,
-  showAbout: true,
+  sortByDate: true,
+  showAbout: false,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
