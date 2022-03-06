@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'Hurley's 银行小学堂',
+  title: 'Hurley的银行小学堂',
   author: 'Hurley',
   email: 'hurleyhuang@hotmail.com',
   link: 'https://bank.hurleywong.com',
-  description: 'Hurley's 银行小学堂',
+  description: 'Hurley的银行小学堂',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
